@@ -1,0 +1,132 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+}
+
+.profile-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+}
+
+
+.profile-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.top-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid #e712a4;
+}
+
+.profile-stats {
+  display: flex;
+  gap: 50px;
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat .number {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.stat .label {
+  font-size: 12px;
+  color: #888;
+}
+
+.profile-bio {
+  margin: 10px;
+  font-size: 14px;
+  color: #555;
+}
+.username{
+  left: 0%;
+}
+.profile-bio a {
+color: #0d5f95;
+text-decoration: none;
+}
+.edit-btn{
+  border-radius: 5px;
+  width: 100px;
+  height: 20px;
+  background-color: #88b8d7;
+}
+
+.featured-stories {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.story {
+  text-align: center;
+}
+
+.story-circle {
+  width: 60px;
+  height: 60px;
+  background-color: #ddd;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+
+.story-label {
+  font-size: 12px;
+  color: #555;
+}
+
+/* Tabs */
+.profile-tabs {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid #dbdbdb;
+  border-bottom: 1px solid #dbdbdb;
+  margin-bottom: 20px;
+}
+
+.tab {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  background-color: #fff;
+  color: #333;
+  border: none;
+  cursor: pointer;
+}
+
+.tab.active {
+  font-weight: bold;
+  border-bottom: 2px solid #000;
+}
+
+
+.posts-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+}
+
+.post {
+  background-color: #ddd;
+  height: 200px;
+}
